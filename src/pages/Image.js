@@ -12,6 +12,8 @@ import nine from '../images/9.jpg'
 import ten from '../images/10.jpg'
 import eleven from '../images/11.jpg'
 import twelve from '../images/12.jpg'
+import twenty from '../images/20.jpg'
+import twentyone from '../images/21.jpg'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
@@ -76,6 +78,16 @@ function Image() {
     </div>
     <div class="col-md-6">
       <img src={twelve} class="img-fluid rounded float-end" alt="Image Two"/>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src={twenty} class="img-fluid rounded float-start" alt="Image One"/>
+    </div>
+    <div class="col-md-6">
+      <img src={twentyone} class="img-fluid rounded float-end" alt="Image Two"/>
     </div>
   </div>
 </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer2 from '../components/Footer2'
 import { Link } from 'react-router-dom'
-import ac from "../images/A.C.jpg"
+import ac from "../images/oga.jpeg"
 import '../App.css'
 
 function About() {
