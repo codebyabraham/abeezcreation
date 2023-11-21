@@ -1,7 +1,20 @@
 import React from 'react'
 import '../App.css'
+import emailjs from 'emailjs-com';
+
+
 
 function Footer() {
+  const SendEmail =(e) =>{
+    e.preventDefault();
+
+    emailjs.sendForm('service_e028x4q', 'template_32vt93n', e.target, 'n6yp0XxF3h9CUUxL7')
+    .then((result) => {
+      console.log(result.text);
+    }, (error)=>{
+      console.log(error.text);
+    });
+  };
   return (
     <>
    <div class=" text-center p-3 bg-dark   " height={'100vh'}>
@@ -11,7 +24,7 @@ function Footer() {
       <p id="h2" class=" text-center text-white ">Sign up here for my newsletter where I let folks know what I'm cooking up</p>
     </div>
   </div>
-  <form action="/subscribe" method="post" class="row g-3">
+  <form action="/subscribe" method="post" class="row g-3" onSubmit={SendEmail}>
     <div class="col-sm-4 my-4">
       <input type="text" class="form-control" name="first_name" placeholder="First Name" aria-label="First Name" required/>
     </div>
