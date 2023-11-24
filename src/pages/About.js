@@ -12,7 +12,7 @@ function About() {
    <div style={{margin:'4.5rem 0rem '}} class="p-3 col-10 row mx-auto text-start align-items-center">
             <div class="col-lg-5">
                 <h1 id='primary' class="fs-3 my-4 mt-2 fw-bold ">ABOUT ABEEZCREATION</h1>
-               <p id='parag' >ABEEZCREATION is a photography brand that was founded in 2018 by Abraham Yusuf. The brand is based in Abuja, Nigeria, and specializes in wedding, portrait, and fashion photography. ABEEZCREATION has a team of experienced photographers who are passionate about capturing the beauty of the world around them.</p>
+               <p id='parag' >ABEEZCREATION is a photography brand that was founded in 2020 by Abraham Yusuf. The brand is based in Abuja, Nigeria, and specializes in wedding, portrait, and fashion photography. ABEEZCREATION has a team of experienced photographers who are passionate about capturing the beauty of the world around them.</p>
 
 <p id='parag'><span className='fw-bold'>ABEEZCREATION'S SERVICES</span> <br />
 ABEEZCREATION offers a wide range of photography services, including:
