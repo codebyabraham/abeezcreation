@@ -11,9 +11,9 @@ function Navbar() {
    <nav class="navbar navbar-expand-lg  custom-navbar">
   <div class="container ">
     {/* <h2 id='h2' class="navbar-brand fw-bolder text-dark" to="/">ABEEZCREATION</h2> */}
-    <div id='logo'>
+    <Link id='logo' to="/">
       <img src={Logo} class="img-fluid"  alt="" />
-    </div>
+    </Link>
     <button class="navbar-toggler navbar-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon "></span>
     </button>
