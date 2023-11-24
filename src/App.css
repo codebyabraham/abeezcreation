@@ -1,24 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;500&family=Poppins:wght@400;500;600&display=swap');
 #h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Kanit';
 }
-.custom-navbar {
-    /* background-color: #a9cce4;  */
+/* .custom-navbar {
+    
    
-  }
+  } */
   #our-team1{
-    margin-top: 100px;
+    margin-top: 10px;
+    background-image: url(./images/bk2.jpg);
   }
   #book{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Kanit';
   }
 #primary{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Kanit';
 }
 #parag{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Kanit';
 }
 #logo{
-  height:auto;
+
   width: 7%;
 }
- 
+@media screen and (max-width: 768px) {
+  #logo{
+    width: 19%;
+  }
+}
+option{
+  font-family: 'Kanit';
+}
+#book1{
+  font-family: 'Kanit';
+}

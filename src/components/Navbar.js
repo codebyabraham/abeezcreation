@@ -8,8 +8,8 @@ import Logo from '../images/Logo.jpg'
 function Navbar() {
   return (
     <>
-   <nav class="navbar navbar-expand-lg   custom-navbar">
-  <div class="container-fluid ">
+   <nav class="navbar navbar-expand-lg  custom-navbar">
+  <div class="container ">
     {/* <h2 id='h2' class="navbar-brand fw-bolder text-dark" to="/">ABEEZCREATION</h2> */}
     <div id='logo'>
       <img src={Logo} class="img-fluid"  alt="" />

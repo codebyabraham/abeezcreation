@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css'
+import Navbar from '../components/Navbar'
 import one from '../images/1.jpg'
 import two from '../images/2.jpg'
 import three from '../images/3.jpg'
@@ -12,10 +13,12 @@ import nine from '../images/9.jpg'
 import ten from '../images/10.jpg'
 import eleven from '../images/11.jpg'
 import twelve from '../images/12.jpg'
+import teen1 from '../images/13.jpg'
+import teen2 from '../images/14.jpg'
 import twenty from '../images/20.jpg'
 import twentyone from '../images/21.jpg'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+
+
 
 function Image() {
   return (
@@ -78,6 +81,16 @@ function Image() {
     </div>
     <div class="col-md-6">
       <img src={twelve} class="img-fluid rounded float-end" alt="Image Two"/>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <img src={teen1} class="img-fluid rounded float-start" alt="Image One"/>
+    </div>
+    <div class="col-md-6">
+      <img src={teen2} class="img-fluid rounded float-end" alt="Image Two"/>
     </div>
   </div>
 </div>
